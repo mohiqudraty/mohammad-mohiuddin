@@ -1,20 +1,19 @@
 
 import './App.css'
-import About from './Sections/About'
-import Contact from './Sections/Contact'
-import Footer from './Sections/Footer'
-import Header from './Sections/Header'
-import Projects from './Sections/Projects'
-import Skills from './Sections/Skills'
+import About from './Components/About'
+import Contact from './Components/Contact'
+import Footer from './Components/Footer'
+import Header from './Components/Header'
+import NavBar from './Components/NavBar'
+import Projects from './Components/Projects'
+import Skills from './Components/Skills'
 function App() {
 
 
   return (
     <>
-      <h1 className="text-3xl font-bold font-inter underline">
-      Hello world!
-    </h1>
   <Header></Header>
+  <NavBar></NavBar>
   <About></About>
   <Contact></Contact>
   <Skills></Skills>
