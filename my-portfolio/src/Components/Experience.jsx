@@ -2,8 +2,8 @@
 
 const Experience = () => {
     return (
-        <div>
-            
+        <div id="experience" className="min-h-screen">
+             <h2 className="text-2xl">Experience</h2>
         </div>
     );
 };
