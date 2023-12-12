@@ -12,55 +12,55 @@ const Skills = () => {
 <div className="mb-7">
   <div className="flex justify-between py-1">
     <span className="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">HTML</span>
-    <span className="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">80%</span>
+    <span className="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">85%</span>
   </div>
   <svg className="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
     <path className="rc-progress-line-trail" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#D9D9D9" strokeWidth="1" fillOpacity="0"></path>
-    <path className="rc-progress-line-path" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#FF6464" strokeWidth="1" fillOpacity="0" style={{ strokeDasharray: '79.2px, 100px', strokeDashoffset: '0px', transition: 'stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s' }}></path>
+    <path className="rc-progress-line-path" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#FF6464" strokeWidth="1" fillOpacity="0" style={{ strokeDasharray: '85.2px, 100px', strokeDashoffset: '0px', transition: 'stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s' }}></path>
   </svg>
 </div>
 {/* css  */}
 <div className="mb-7">
   <div className="flex justify-between py-1">
     <span className="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">CSS</span>
-    <span className="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">70%</span>
+    <span className="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">80%</span>
   </div>
   <svg className="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
     <path className="rc-progress-line-trail" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#D9D9D9" strokeWidth="1" fillOpacity="0"></path>
-    <path className="rc-progress-line-path" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#7952b3" strokeWidth="1" fillOpacity="0" style={{ strokeDasharray: '69.2px, 100px', strokeDashoffset: '0px', transition: 'stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s' }}></path>
+    <path className="rc-progress-line-path" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#7952b3" strokeWidth="1" fillOpacity="0" style={{ strokeDasharray: '80.2px, 100px', strokeDashoffset: '0px', transition: 'stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s' }}></path>
   </svg>
 </div>
 {/* tailwind  */}
 <div className="mb-7">
   <div className="flex justify-between py-1">
     <span className="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Tailwind</span>
-    <span className="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">65%</span>
+    <span className="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">74%</span>
   </div>
   <svg className="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
     <path className="rc-progress-line-trail" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#D9D9D9" strokeWidth="1" fillOpacity="0"></path>
-    <path className="rc-progress-line-path" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#38B2AC" strokeWidth="1" fillOpacity="0" style={{ strokeDasharray: '63.2px, 100px', strokeDashoffset: '0px', transition: 'stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s' }}></path>
+    <path className="rc-progress-line-path" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#38B2AC" strokeWidth="1" fillOpacity="0" style={{ strokeDasharray: '75.2px, 100px', strokeDashoffset: '0px', transition: 'stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s' }}></path>
   </svg>
 </div>
 {/* Java Script  */}
 <div className="mb-7">
   <div className="flex justify-between py-1">
     <span className="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Java Script</span>
-    <span className="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">55%</span>
+    <span className="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">60%</span>
   </div>
   <svg className="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
     <path className="rc-progress-line-trail" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#D9D9D9" strokeWidth="1" fillOpacity="0"></path>
-    <path className="rc-progress-line-path" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#FFFF00" strokeWidth="1" fillOpacity="0" style={{ strokeDasharray: '54.2px, 100px', strokeDashoffset: '0px', transition: 'stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s' }}></path>
+    <path className="rc-progress-line-path" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#FFFF00" strokeWidth="1" fillOpacity="0" style={{ strokeDasharray: '60.2px, 100px', strokeDashoffset: '0px', transition: 'stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s' }}></path>
   </svg>
 </div>
 {/* React  */}
 <div className="mb-7">
   <div className="flex justify-between py-1">
     <span className="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">React</span>
-    <span className="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">50%</span>
+    <span className="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">55%</span>
   </div>
   <svg className="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
     <path className="rc-progress-line-trail" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#D9D9D9" strokeWidth="1" fillOpacity="0"></path>
-    <path className="rc-progress-line-path" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#61DAFB" strokeWidth="1" fillOpacity="0" style={{ strokeDasharray: '49.2px, 100px', strokeDashoffset: '0px', transition: 'stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s' }}></path>
+    <path className="rc-progress-line-path" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#61DAFB" strokeWidth="1" fillOpacity="0" style={{ strokeDasharray: '55.2px, 100px', strokeDashoffset: '0px', transition: 'stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s' }}></path>
   </svg>
 </div>
 </div>
@@ -98,11 +98,11 @@ const Skills = () => {
 <div className="mb-7">
   <div className="flex justify-between py-1">
     <span className="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">MongoDB</span>
-    <span className="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">60%</span>
+    <span className="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">65%</span>
   </div>
   <svg className="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
     <path className="rc-progress-line-trail" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#D9D9D9" strokeWidth="1" fillOpacity="0"></path>
-    <path className="rc-progress-line-path" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#47A248" strokeWidth="1" fillOpacity="0" style={{ strokeDasharray: '59.2px, 100px', strokeDashoffset: '0px', transition: 'stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s' }}></path>
+    <path className="rc-progress-line-path" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#47A248" strokeWidth="1" fillOpacity="0" style={{ strokeDasharray: '65.2px, 100px', strokeDashoffset: '0px', transition: 'stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s' }}></path>
   </svg>
 </div>
 
@@ -121,29 +121,29 @@ const Skills = () => {
   </div>
   <svg className="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
     <path className="rc-progress-line-trail" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#D9D9D9" strokeWidth="1" fillOpacity="0"></path>
-    <path className="rc-progress-line-path" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#e84e31" strokeWidth="1" fillOpacity="0" style={{ strokeDasharray: '79.2px, 100px', strokeDashoffset: '0px', transition: 'stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s' }}></path>
+    <path className="rc-progress-line-path" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#e84e31" strokeWidth="1" fillOpacity="0" style={{ strokeDasharray: '65.2px, 100px', strokeDashoffset: '0px', transition: 'stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s' }}></path>
   </svg>
 </div>
 {/* Firebase */}
 <div className="mb-7">
   <div className="flex justify-between py-1">
     <span className="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">FireBase</span>
-    <span className="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">30%</span>
+    <span className="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">45%</span>
   </div>
   <svg className="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
     <path className="rc-progress-line-trail" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#D9D9D9" strokeWidth="1" fillOpacity="0"></path>
-    <path className="rc-progress-line-path" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#FFA611" strokeWidth="1" fillOpacity="0" style={{ strokeDasharray: '30.2px, 100px', strokeDashoffset: '0px', transition: 'stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s' }}></path>
+    <path className="rc-progress-line-path" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#FFA611" strokeWidth="1" fillOpacity="0" style={{ strokeDasharray: '45.2px, 100px', strokeDashoffset: '0px', transition: 'stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s' }}></path>
   </svg>
 </div>
 {/* English */}
 <div className="mb-7">
   <div className="flex justify-between py-1">
     <span className="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">English</span>
-    <span className="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">40%</span>
+    <span className="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">50%</span>
   </div>
   <svg className="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
     <path className="rc-progress-line-trail" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#D9D9D9" strokeWidth="1" fillOpacity="0"></path>
-    <path className="rc-progress-line-path" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#000" strokeWidth="1" fillOpacity="0" style={{ strokeDasharray: '39.2px, 100px', strokeDashoffset: '0px', transition: 'stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s' }}></path>
+    <path className="rc-progress-line-path" d="M 0.5,0.5 L 99.5,0.5" strokeLinecap="round" stroke="#000" strokeWidth="1" fillOpacity="0" style={{ strokeDasharray: '50.2px, 100px', strokeDashoffset: '0px', transition: 'stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s' }}></path>
   </svg>
 </div>
 
