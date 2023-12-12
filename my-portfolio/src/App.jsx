@@ -7,12 +7,15 @@ import Footer from './Components/Footer'
 import NavBar from './Components/NavBar'
 import Projects from './Components/Projects'
 import Skills from './Components/Skills'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 function App() {
-
 
   return (
     <>
- <div className='container mx-auto'>
+ <div className="container mx-auto px-5 bg-gray-200">
   <Banner></Banner>
   <NavBar></NavBar>
   <Skills></Skills>
