@@ -8,7 +8,8 @@ import NavBar from './Components/NavBar'
 import Projects from './Components/Projects'
 import Skills from './Components/Skills'
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+import 'aos/dist/aos.css'; 
+import { Toaster } from 'react-hot-toast';
 // ..
 AOS.init();
 function App() {
@@ -24,6 +25,7 @@ function App() {
   <Education></Education>
   <Contact></Contact>
   <Footer></Footer>
+  <Toaster />
  </div>
     </>
   )

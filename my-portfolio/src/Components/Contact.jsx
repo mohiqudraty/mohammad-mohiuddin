@@ -1,5 +1,6 @@
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
+import toast from 'react-hot-toast';
 import { MdOutlineEmail, MdOutlineAddIcCall } from "react-icons/md";
 
 
@@ -13,26 +14,15 @@ const Contact = () => {
     emailjs.sendForm('service_fs17frh', 'template_655vsik', form.current, 'HkJ0y2Nppc9HXq0yp')
       .then((result) => {
           console.log(result.text);
+          toast.success('Message sent successfully!')
+          form.current.reset();
       }, (error) => {
           console.log(error.text);
+          toast.error('Something Wrong!')
       });
   };
      
     
-      
-//         const handleSubmit = (event) => {
-//           event.preventDefault();
-
-// const form = event.target;
-// const name = form.value.name;
-// const email = form.value.email;
-// const message = form.value.message
-
-// console.log(name, email, message);
-
-//           // Send form data to your server or email service here
-//           alert('Message sent! Thank you for your contact.');
-//         };
     return (
   
         <section 

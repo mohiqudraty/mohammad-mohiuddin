@@ -1,7 +1,7 @@
 import Header from "./Header";
 import img from "../assets/myimg.png";
 // icon
-import { FaGithub, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitterSquare, FaDownload } from "react-icons/fa";
 
 // react type animation
 import { TypeAnimation } from "react-type-animation";
@@ -51,7 +51,7 @@ const Banner = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 2 }}
  className="flex gap-6 max-w-max mx-auto items-center lg:mx-0">
-            <a download target="_blank" href="/public/Resume-Mohammad-Mohiuddin.pdf"><button className="py-2 px-3 rounded-lg bg-teal-500 ">My Resume</button></a>
+            <a download target="_blank" href="/Mohammad-Mohiuddin-MERN-Stack-Developer-Resume.pdf"><button className="py-2 px-3 rounded-lg bg-teal-500 ">My Resume<FaDownload className="inline ml-1"/></button></a>
             <Link to="projects"><button className="py-2 px-3 rounded-lg bg-[#77acc8]">My Projects</button></Link>
           </motion.div>
           {/* social  */}
